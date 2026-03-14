@@ -34,6 +34,9 @@ yarn-error.log*
 .env*
 
 /env
+/venv
+/.venv
+
 
 # vercel
 .vercel
@@ -43,8 +46,8 @@ yarn-error.log*
 next-env.d.ts
 
 # Modelos de IA (Archivos pesados)
-modelo_logistic_sentimiento_v3.joblib
-vectorizador_tfidf_v3.joblib
+#modelo_logistic_sentimiento_v3.joblib
+#vectorizador_tfidf_v3.joblib
 
 # Alternativa: Ignorar todos los archivos con extensión .joblib o .pkl
 *.joblib
